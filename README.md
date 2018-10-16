@@ -1,8 +1,8 @@
 # SegundaSemana
 ##Conteudo
 
--Receber variável com Scanner
--Estrutura de repetição
--Estrutura de controle
+-Receber variável com Scanner <br>
+-Estrutura de repetição <br>
+-Estrutura de controle <br>
 -Vetores
 
