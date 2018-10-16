@@ -1,4 +1,4 @@
-package semana2;
+package SegundaSemana;
 
 /**
  * Crie um programa que imprima todos os números
