@@ -7,20 +7,3 @@ package semana2;
  */
 public class Primo {
 	public static void main(String[] args) {
-	for (int numeroAVerificar=1; numeroAVerificar<=100; numeroAVerificar++) {
-		ePrimo(numeroAVerificar);
-	}
-}
-
-	public static void ePrimo(int numeroAVerificar) {
-		int numeroPrimo=1;
-	int verificaUmEmUm=1;
-		
-		while (verificaUmEmUm<=numeroAVerificar) {
-			if(numeroPrimo%numeroAVerificar!=0) {
-				System.out.println(numeroAVerificar);
-				verificaUmEmUm++;
-			}
-		}
-	}
-}
