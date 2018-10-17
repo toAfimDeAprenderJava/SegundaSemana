@@ -6,12 +6,14 @@ package semana2;
  * 
  */
 public class Primo {
+	int primoDivisor=2;
 	public static void main(String[] args) {
 	for (int numeroPrimo=1; numeroPrimo<=100; numeroPrimo++) {
 		System.out.println("For funciona, índice é " + numeroPrimo);
-		while((numeroPrimo%numeroPrimo!=0) && (numeroPrimo%1==0)) {
-//			System.out.println(numeroPrimo);
-			}
+		while((numeroPrimo%numeroPrimo!=0) && (numeroPrimo%1==0) && (numeroPrimo%primoDivisor!=0)) {
+			System.out.println(numeroPrimo);
+			primoDivisor=numeroPrimo;
+		}
 	}
 	}
 }
