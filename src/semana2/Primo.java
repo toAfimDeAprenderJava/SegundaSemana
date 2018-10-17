@@ -15,7 +15,7 @@ public class Primo {
 	}
 }
 
-	public static boolean ePrimo(numeroAVerificar) {
+	public static boolean ePrimo(int numeroAVerificar) {
 		int numeroPrimo=1;
 		int verificaUmEmUm=1;
 		
@@ -23,4 +23,5 @@ public class Primo {
 			if(numeroPrimo%numeroAVerificar==0) return false;
 			else return true;
 		}
-}
+	}
+	}
