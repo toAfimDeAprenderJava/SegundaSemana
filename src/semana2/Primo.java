@@ -9,6 +9,7 @@ public class Primo {
 	public static void main(String[] args) {
 	for (int numeroAVerificar=1; numeroAVerificar<=100; numeroAVerificar++) {
 		ePrimo(numeroAVerificar);
+		System.out.println(ePrimo);
 	}
 	}
 
@@ -17,7 +18,7 @@ public class Primo {
 	int verificaUmEmUm=1;
 		
 		while (verificaUmEmUm<=numeroAVerificar) {
-			if(numeroPrimo%numeroAVerificar==0) return false;
+			if(numeroPrimo%numeroAVerificar==0) return;
 			else return numeroPrimo;
 		}
 	}
