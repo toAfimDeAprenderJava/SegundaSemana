@@ -8,20 +8,19 @@ package semana2;
 public class Primo {
 	public static void main(String[] args) {
 	for (int numeroAVerificar=1; numeroAVerificar<=100; numeroAVerificar++) {
-		if((ePrimo(numeroAVerificar)) {
-			System.out.println(numeroPrimo);
+		ePrimo(numeroAVerificar);
 		}
 	}
 	}
 }
 
-	public static boolean ePrimo(int numeroAVerificar) {
+	public static int ePrimo(int numeroAVerificar) {
 		int numeroPrimo=1;
-		int verificaUmEmUm=1;
+	int verificaUmEmUm=1;
 		
 		while (verificaUmEmUm<=numeroAVerificar) {
 			if(numeroPrimo%numeroAVerificar==0) return false;
-			else return true;
+			else return numeroPrimo;
 		}
 	}
 	}
