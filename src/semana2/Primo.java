@@ -8,8 +8,7 @@ package semana2;
 public class Primo {
 	public static void main(String[] args) {
 	for (int numeroAVerificar=1; numeroAVerificar<=100; numeroAVerificar++) {
-		ePrimo(numeroAVerificar);
-		System.out.println(ePrimo);
+		System.out.println((ePrimo(numeroAVerificar)));
 	}
 	}
 
