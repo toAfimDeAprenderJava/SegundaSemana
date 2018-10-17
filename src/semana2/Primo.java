@@ -11,7 +11,7 @@ public class Primo {
 		System.out.println("For funciona, índice é " + numeroPrimo);
 //		while((numeroPrimo%numeroPrimo!=0) && (numeroPrimo%1==0)) {
 //			System.out.println(numeroPrimo);
-/ /		}
+//			}
 	}
 	}
 }
