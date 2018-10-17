@@ -7,12 +7,20 @@ package semana2;
  */
 public class Primo {
 	public static void main(String[] args) {
-		int primoDivisor=2;
-	for (int numeroPrimo=1; numeroPrimo<=100; numeroPrimo++) {
-		while((numeroPrimo%numeroPrimo==0) && (numeroPrimo%1==0) && (numeroPrimo%primoDivisor!=0)) {
+	for (int numeroAVerificar=1; numeroAVerificar<=100; numeroAVerificar++) {
+		if((ePrimo(numeroAVerificar)) {
 			System.out.println(numeroPrimo);
-			primoDivisor=numeroPrimo;
 		}
 	}
 	}
+}
+
+	public static boolean ePrimo(numeroAVerificar) {
+		int numeroPrimo=1;
+		int verificaUmEmUm=1;
+		
+		while (verificaUmEmUm<=numeroAVerificar) {
+			if(numeroPrimo%numeroAVerificar==0) return false;
+			else return true;
+		}
 }
