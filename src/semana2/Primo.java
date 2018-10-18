@@ -16,7 +16,7 @@ for(int numeroPrimo=1; numeroPrimo<=100; numeroPrimo++) {
 
 public static boolean ePrimo(int numeroPrimo) {
 	for(int checaPrimoAPrimo=2; checaPrimoAPrimo<=numeroPrimo; checaPrimoAPrimo++) {
-		if((numeroPrimo%checaPrimoAPrimo!=0) && (numeroPrimo/checaPrimoAPrimo<numeroPrimo)) return true;
+		if((numeroPrimo%checaPrimoAPrimo!=0) && (numeroPrimo/checaPrimoAPrimo<=numeroPrimo)) return true;
 		return false;
 	}
 	return false; //Parece que tenho que acrescentar isso senão Java duvida que o for será executado e tem medo de não retornar nada
