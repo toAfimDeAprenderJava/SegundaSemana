@@ -1,21 +1,32 @@
-package semana2;
+package semana2;;
 
 /**
  * Crie um programa que imprima todas as cartas do baralho.
  * 
  * Exemplo: 
  * 
- * ﾃ《 de Ouros
- * ﾃ《 de Espadas
- * ﾃ《 de Copas
- * ﾃ《 de Paus
+ * ﾁs de Ouros
+ * ﾁs de Espadas
+ * ﾁs de Copas
+ * ﾁs de Paus
  * Dois de Ouros
  * ...
  * 
  */
 public class Baralho {
 	public static void main(String[] args) {
-	
+		String[] cartas = {"ﾁs", "Dois", "Tr黌", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove", "Dez", "Valete", "Dama", "Rei"};
+		String[] naipes = {"de Ouros", "de Espadas", "de Copas", "de Paus"};
+		
+		int flag = 0;
+		
+		for (String c: cartas)
+		do {
+			for (String s: naipes) {
+				System.out.println(c + " " + s);
+				flag++;
+			}
+		}while (flag<=2);
 		}
 	}
-}
+
