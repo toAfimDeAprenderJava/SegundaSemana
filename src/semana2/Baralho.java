@@ -15,7 +15,15 @@ package semana2;
  */
 public class Baralho {
 	public static void main(String[] args) {
-	
+		
+		int numeroCartas[] = {1,2,3,4,5,6,7,8,9,10};
+		
+		String naipesCartas[] = {"Copas","Ouros","Espadas","Paus"};
+		
+		for (String naipe : naipesCartas) {
+		    for (int numero : numeroCartas) {
+		        System.out.printf("%d de %s.%n", numero, naipe);
+		    }
 		}
-	}
+}
 }
